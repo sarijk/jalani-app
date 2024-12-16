@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background-image: url('cover.jpg'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+logo-element {
+    margin-right: auto; /* Posisikan di kiri */
+    padding-left: 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.transparent-divider {
+    border: none;
+    height: 2px;
+    background-color: #0000001A;
+    margin-top: 50px;
+}
+
+article {
+    margin: 0 80px;
+}
+
+
+#kartu {
+    display: flex;
+    flex-direction: row;
+}
+
+#content {
+    width: max-width;
+    display: flex;
+    flex-direction: row;
+    margin-top: 105px;
+}
+
+article {
+    margin-top: 40px;
+}
+
+.card-element {
+    width: 75%;
+    
+}
+
+aside {
+    width: 25%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 37px;
+    border: 2px solid #E7FAFE;
+    padding: 0 5px;
+    padding: 20px;
+}
+
+aside img {
+    width: 175px;
+    
+}
+
+aside h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+aside p {
+    text-align: left;
+    font-family: 'Inter';
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
